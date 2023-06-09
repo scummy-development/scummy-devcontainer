@@ -1,0 +1,11 @@
+{
+  "name": "Scummy Dev Container",
+  "build": {
+    "dockerfile": "Dockerfile",
+    "cacheFrom": "ghcr.io/scummy-development/scummy-devcontainer"
+  },
+  "features": {
+    "ghcr.io/devcontainers/features/aws-cli": "latest"
+  },
+  "remoteUser": "codespace"
+}
