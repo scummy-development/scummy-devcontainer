@@ -9,5 +9,6 @@
     "ghcr.io/devcontainers/features/docker-in-docker": "latest",
     "ghcr.io/devcontainers-contrib/features/digitalocean-cli": "latest"
   },
-  "remoteUser": "codespace"
+  "remoteUser": "codespace",
+  "workspaceFolder": "/workspace"
 }

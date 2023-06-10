@@ -8,6 +8,7 @@ COPY --from=base / /
 RUN apt update -y \
     && apt install -y iputils-ping net-tools \
     && sudo -u codespace -s npm i -g @devcontainers/cli
+COPY .devcontainer /workspace/.devcontainer
 
 VOLUME [ "/var/lib/docker" ]
 ENTRYPOINT [ "/usr/local/share/docker-init.sh", "/usr/local/share/ssh-init.sh"]
