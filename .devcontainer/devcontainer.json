@@ -5,7 +5,9 @@
     "cacheFrom": "ghcr.io/scummy-development/scummy-devcontainer"
   },
   "features": {
-    "ghcr.io/devcontainers/features/aws-cli": "latest"
+    "ghcr.io/devcontainers/features/kubectl-helm-minikube": "latest",
+    "ghcr.io/devcontainers/features/aws-cli": "latest",
+    "ghcr.io/devcontainers/features/docker-in-docker": "latest"
   },
   "remoteUser": "codespace"
 }
